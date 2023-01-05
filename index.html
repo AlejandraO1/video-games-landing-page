@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video Games</title>
+    <style>
+      body {
+        background: linear-gradient(
+          109.6deg,
+          rgb(204, 228, 247) 11.2%,
+          rgb(237, 246, 250) 100.2%
+        );
+      }
+
+      h1,
+      h2 {
+        color: #1b1c1e;
+      }
+
+      h1 {
+        font-size: 42px;
+      }
+
+      h2 {
+        font-size: 36px;
+      }
+
+      button {
+        background: rgb(204, 228, 247);
+        padding: 12px;
+        border: 1px solid #808080;
+        border-radius: 12px;
+        display: block;
+        margin: 0 auto;
+        font-size: 16px;
+        transition: all 200ms ease-in-out;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background: rgb(237, 246, 250);
+      }
+
+      img {
+        width: 275px;
+        height: 300px;
+        border: 2px solid rgb(204, 228, 247);
+      }
+
+      p {
+        font-size: 20px;
+      }
+
+      footer {
+        text-align: center;
+        margin: 20px auto;
+      }
+
+      a {
+        color: rgb(106, 171, 223);
+        text-decoration: none;
+        transition: all 200ms ease-in-out;
+      }
+
+      a:hover {
+        color: #1b1c1e;
+      }
+
+      .theme {
+        margin-bottom: 20px;
+        padding: 10px 20px;
+        background: #1b1c1e;
+        color: #ffff;
+        transition: all 200ms ease-in-out;
+      }
+
+      .theme:hover {
+        background: #ffff;
+        color: #1b1c1e;
+      }
+
+      .container {
+        background-color: rgb(251, 251, 251);
+        color: #1b1c1e;
+        text-align: center;
+        margin: 0 auto;
+        max-width: 625px;
+        padding: 20px;
+        border-radius: 12px;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 300px);
+        grid-gap: 20px;
+        margin: 15px 0;
+      }
+
+      .grid img {
+        border-radius: 12px;
+        transition: all 200ms ease-in-out;
+      }
+      .grid img:hover {
+        transform: scale(1.2);
+      }
+
+      .dark {
+        background: linear-gradient(
+          109.6deg,
+          rgb(20, 30, 48) 11.2%,
+          rgb(36, 59, 85) 91.1%
+        );
+        color: #ffff;
+      }
+
+      .dark .theme {
+        background: #ffff;
+        color: #1b1c1e;
+      }
+
+      .dark .theme:hover {
+        background: #1b1c1e;
+        color: #ffff;
+      }
+
+      .dark h1 {
+        color: rgb(248, 248, 248);
+      }
+
+      .dark h2 {
+        color: rgb(248, 248, 248);
+      }
+
+      .dark .container {
+        background: rgb(9, 14, 22);
+        color: rgb(248, 248, 248);
+        opacity: 0.75;
+      }
+
+      .dark img {
+        border: 2px solid rgb(36, 59, 85);
+      }
+
+      .dark button {
+        background: rgb(20, 30, 48);
+        color: #ffff;
+      }
+
+      .dark button:hover {
+        background: rgb(36, 59, 85);
+      }
+
+      .dark a:hover {
+        color: #ffff;
+      }
+    </style>
+  </head>
+  <body>
+    <button class="theme">🌙</button>
+    <div class="container">
+      <h1>Playing Video Games</h1>
+      <h2>My Favorite Hobby</h2>
+      <div class="grid">
+        <a
+          href="https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Breath_of_the_Wild"
+          target="_blank"
+        >
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/056/984/original/The_Legend_of_Zelda_Breath_of_the_Wild.jpg?1670444224"
+            alt="Legend of Zelda Breath of the Wild"
+            class="legend-of-zelda-pic"
+          />
+        </a>
+        <a
+          href="https://en.wikipedia.org/wiki/Red_Dead_Redemption_2"
+          target="_blank"
+        >
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/056/988/original/Red_Dead_Redemption_II.jpg?1670444257"
+            alt="Red Dead Redemption 2"
+            class="red-dead-pic"
+          />
+        </a>
+        <a
+          href="https://en.wikipedia.org/wiki/It_Takes_Two_(video_game)"
+          target="_blank"
+        >
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/056/989/original/It_Takes_Two_cover_art.png?1670444265"
+            alt="It Takes Two"
+            class="it-takes-two-pic"
+          />
+        </a>
+        <a href="https://en.wikipedia.org/wiki/Stardew_Valley" target="_blank">
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/056/987/original/Logo_of_Stardew_Valley.png?1670444250"
+            alt="Stardew Valley"
+            class="stardew-pic"
+          />
+        </a>
+      </div>
+      <p>
+        Playing video games can be for anyone. There are many different types of
+        video games that are out there that can cater to just about anyone.
+        Whether playing by yourself or with a group of friends, you are sure to
+        enjoy playing through the imaginative storyline of whichever game you
+        choose to play!
+      </p>
+      <button class="sign-up">Sign-up for more recommendations</button>
+    </div>
+    <footer>
+      Coded by
+      <a href="https://www.linkedin.com/in/alejandraortega1/" target="_blank"
+        >Alejandra Ortega</a
+      >
+    </footer>
+    <script>
+      function changeTheme() {
+        let body = document.querySelector("body");
+        body.classList.toggle("dark");
+        themeButton.classList.toggle("dark");
+        if (themeButton.classList.contains("dark")) {
+          themeButton.innerHTML = "☀️";
+        } else {
+          themeButton.innerHTML = "🌙";
+        }
+      }
+
+      function signUp() {
+        let askUserName = prompt("What is your name?");
+        let askUserEmail = prompt("What is your email?");
+        if (askUserName.length > 0 && askUserEmail.length > 0) {
+          alert(
+            `Okay ${askUserName}, we will send you some more recommendations. Meanwhile, please pass the time by learning more about the other video games and play through them!`
+          );
+        } else {
+          alert(`Okay, no probelm! Thank you for your time!`);
+        }
+      }
+
+      let themeButton = document.querySelector(".theme");
+      themeButton.addEventListener("click", changeTheme);
+
+      let signUpButton = document.querySelector(".sign-up");
+      signUpButton.addEventListener("click", signUp);
+    </script>
+  </body>
+</html>
